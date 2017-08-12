@@ -12,7 +12,7 @@ public class RestController {
   @RequestMapping(value = "/message", method = RequestMethod.GET)
   public ResponseEntity<String> message() {
      
-      return new ResponseEntity<String>("hello", HttpStatus.OK);
+      return new ResponseEntity<String>("hello naveed!!!!!", HttpStatus.OK);
   }
 
 }
